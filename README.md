@@ -18,7 +18,7 @@
 ```plaintext
 retail-sqlite-project/
 ├── 00-init-data.ipynb                    # 数据初始化脚本：Excel导入SQLite生成业务库
-├── notebooks/                            # 8个独立分析Notebook（核心代码）
+├── notebooks/                            # 6个独立分析Notebook
 │   ├── 01_overview_agg.ipynb             全量业务指标统计
 │   ├── 02_prov_category_group.ipynb      省份+品类营收交叉分析
 │   ├── 03_month_trend_lag.ipynb          月度营收环比计算
@@ -50,7 +50,7 @@ retail-sqlite-project/
 1. 克隆仓库到本地
 2. 安装依赖：`pip install pandas openpyxl jupyter sqlite3`
 3. 启动Jupyter Notebook
-4. 优先运行 `01_init_data.ipynb`，自动生成 `retail_sales.db` 数据库
+4. 优先运行 `00_init_data.ipynb`，自动生成 `retail_sales.db` 数据库
 5. 打开任意notebooks内文件，单独执行，脚本互不依赖
 
 ## 项目核心亮点
