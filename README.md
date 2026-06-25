@@ -1,6 +1,6 @@
 # 零售业务SQL数据分析实战项目
 ## 项目概述
-本项目为数据分析师求职面试实战作品集，基于**星型模型零售数据集**开发：1张销售订单事实表 + 门店/商品/客户3张维度表，使用 `Python + SQLite + Jupyter Notebook` 完成全套SQL数据分析。
+本项目用于数据分析师求职面试，基于**星型模型零售数据集**开发：1张销售订单事实表 + 门店/商品/客户3张维度表，使用 `Python + SQLite + Jupyter Notebook` 完成全套SQL数据分析
 所有Notebook代码完全独立解耦，单文件可单独运行
 
 ## 技术栈
@@ -37,7 +37,7 @@ retail-sql-analysis-demo/ <br>
 1. `01_overview_agg`：基础聚合函数、UNION ALL、全量数据探查
 2. `02_prov_category_group`：多表INNER JOIN、多维度GROUP BY、营收占比计算
 3. `03_month_trend_lag`：SQLite日期函数、LAG窗口函数、环比增长率
-4. `04_shop_rank_three_window`：PARTITION BY、ROW_NUMBER/RANK/DENSE_RANK排名对比（面试必考）
+4. `04_shop_rank_three_window`：PARTITION BY、ROW_NUMBER/RANK/DENSE_RANK排名对比
 5. `05_customer_tile_ntile`：NTILE分桶、客户分层运营
 6. `06_high_customer_exists`：EXISTS关联子查询，区分IN与EXISTS性能差异
 7. `07_member_pivot_case`：CASE条件聚合、SQL行转列透视表
