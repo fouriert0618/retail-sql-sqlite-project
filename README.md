@@ -34,7 +34,7 @@ retail-sqlite-project/
 ├── .gitignore                            # 缓存、数据库、系统文件过滤
 ├── LICENSE
 └── README.md
-
+```
 
 ## 8大分析模块
 1. `01_overview_agg`：基础聚合函数、UNION ALL、全量数据探查
