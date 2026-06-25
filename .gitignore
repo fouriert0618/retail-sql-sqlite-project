@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Jupyter 缓存文件
+.ipynb_checkpoints/
+*.ipynb
+# 数据库、缓存、系统文件不变
+*.db
+*.db-journal
+__pycache__/
+.DS_Store
+Thumbs.db
