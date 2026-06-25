@@ -15,6 +15,7 @@
 区分事实表、维度表，符合企业数据仓库建模规范
 
 ## 仓库目录说明
+```plaintext
 retail-sql-sqlite-project/
 ├── 00-init-data.ipynb                    # 数据初始化脚本：Excel导入SQLite生成业务库
 ├── notebooks/                            # 8个独立分析Notebook（核心代码）
