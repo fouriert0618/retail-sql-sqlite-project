@@ -23,7 +23,7 @@ retail-sql-analysis-demo/ <br>
 │ ├── 03_month_trend_lag.ipynb 月度营收环比计算 <br> 
 │ ├── 04_shop_rank_three_window.ipynb 门店好评率三大排名函数 <br> 
 │ ├── 05_customer_tile_ntile.ipynb 用户价值分层分桶 <br> 
-│ ├── 06_high_customer_exists.ipynb 高价值客户子查询筛选 <br> 
+│ ├── 06_customer_exists_high_spend.ipynb 大额消费客户全订单明细查询 <br> 
 │ ├── 07_member_pivot_case.ipynb 会员营收行转列透视 <br> 
 │ ├── 08_shop_moving_avg_window.ipynb 门店累计 & 移动平均 <br> 
 ├── dataset/ <br> 
@@ -39,7 +39,7 @@ retail-sql-analysis-demo/ <br>
 3. `03_month_trend_lag`：SQLite日期函数、LAG窗口函数、环比增长率
 4. `04_shop_rank_three_window`：PARTITION BY、ROW_NUMBER/RANK/DENSE_RANK排名对比
 5. `05_customer_tile_ntile`：NTILE分桶、客户分层运营
-6. `06_high_customer_exists`：EXISTS关联子查询，区分IN与EXISTS性能差异
+6. `06_customer_exists_high_spend`：EXISTS半连接存在性查询、复合排序、多表关联
 7. `07_member_pivot_case`：CASE条件聚合、SQL行转列透视表
 8. `08_shop_moving_avg_window`：累计求和窗口、移动平均窗口函数
 
