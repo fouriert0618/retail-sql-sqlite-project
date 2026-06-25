@@ -16,7 +16,8 @@
 
 ## 仓库目录说明
 retail-sql-analysis-demo/
-├── 00_init_data.ipynb # 数据初始化脚本：Excel 导入 SQLite 生成业务库
+├── 00_init_data.ipynb # 数据初始化脚本：Excel 导入 SQLite 生成业务库 
+
 ├── notebooks/ # 8 个独立分析 Notebook（核心代码）
 │ ├── 01_overview_agg.ipynb 全量业务指标统计
 │ ├── 02_prov_category_group.ipynb 省份 + 品类营收交叉分析
