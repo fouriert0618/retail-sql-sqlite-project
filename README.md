@@ -33,7 +33,7 @@ retail-sql-analysis-demo/ <br>
 └── .gitignore # 缓存、数据库、系统文件过滤
 
 
-## 8大分析模块 & 对应面试考点
+## 8大分析模块
 1. `01_overview_agg`：基础聚合函数、UNION ALL、全量数据探查
 2. `02_prov_category_group`：多表INNER JOIN、多维度GROUP BY、营收占比计算
 3. `03_month_trend_lag`：SQLite日期函数、LAG窗口函数、环比增长率
