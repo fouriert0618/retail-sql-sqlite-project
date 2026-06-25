@@ -27,7 +27,7 @@ retail-sql-analysis-demo/ <br>
 │ ├── 07_member_pivot_case.ipynb 会员营收行转列透视 <br> 
 │ ├── 08_shop_moving_avg_window.ipynb 门店累计 & 移动平均 <br> 
 ├── dataset/ <br> 
-│ └── 零售业务 SQL 分析数据集_商品名称去品牌.xlsx # 原始数据源 <br> 
+│ └── 零售业务 SQL 分析数据集.xlsx # 原始数据源 <br> 
 ├── docs/ <br> 
 │ └── 完整项目作品集说明.md # 完整版业务需求、思路、知识点、结果解读 <br> 
 └── .gitignore # 缓存、数据库、系统文件过滤
