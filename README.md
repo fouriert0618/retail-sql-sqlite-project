@@ -15,22 +15,36 @@
 区分事实表、维度表，符合企业数据仓库建模规范
 
 ## 仓库目录说明
-retail-sql-analysis-demo/
+retail-sql-analysis-demo/ 
+
 ├── 00_init_data.ipynb # 数据初始化脚本：Excel 导入 SQLite 生成业务库 
 
-├── notebooks/ # 8 个独立分析 Notebook（核心代码）
-│ ├── 01_overview_agg.ipynb 全量业务指标统计
-│ ├── 02_prov_category_group.ipynb 省份 + 品类营收交叉分析
-│ ├── 03_month_trend_lag.ipynb 月度营收环比计算
-│ ├── 04_shop_rank_three_window.ipynb 门店好评率三大排名函数
-│ ├── 05_customer_tile_ntile.ipynb 用户价值分层分桶
-│ ├── 06_high_customer_exists.ipynb 高价值客户子查询筛选
-│ ├── 07_member_pivot_case.ipynb 会员营收行转列透视
-│ ├── 08_shop_moving_avg_window.ipynb 门店累计 & 移动平均
-├── dataset/
-│ └── 零售业务 SQL 分析数据集_商品名称去品牌.xlsx # 原始数据源
-├── docs/
-│ └── 完整项目作品集说明.md # 完整版业务需求、思路、知识点、结果解读
+├── notebooks/ # 8 个独立分析 Notebook（核心代码） 
+
+│ ├── 01_overview_agg.ipynb 全量业务指标统计 
+
+│ ├── 02_prov_category_group.ipynb 省份 + 品类营收交叉分析 
+
+│ ├── 03_month_trend_lag.ipynb 月度营收环比计算 
+
+│ ├── 04_shop_rank_three_window.ipynb 门店好评率三大排名函数 
+
+│ ├── 05_customer_tile_ntile.ipynb 用户价值分层分桶 
+
+│ ├── 06_high_customer_exists.ipynb 高价值客户子查询筛选 
+
+│ ├── 07_member_pivot_case.ipynb 会员营收行转列透视 
+
+│ ├── 08_shop_moving_avg_window.ipynb 门店累计 & 移动平均 
+
+├── dataset/ 
+
+│ └── 零售业务 SQL 分析数据集_商品名称去品牌.xlsx # 原始数据源 
+
+├── docs/ 
+
+│ └── 完整项目作品集说明.md # 完整版业务需求、思路、知识点、结果解读 
+
 └── .gitignore # 缓存、数据库、系统文件过滤
 
 
